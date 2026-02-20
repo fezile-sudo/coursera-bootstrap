@@ -1,0 +1,25 @@
+{
+  "name": "coursera-bootstrap",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and node",
+  "homepage": "https://github.com/fezile-sudo/coursera-bootstrap#readme",
+  "bugs": {
+    "url": "https://github.com/fezile-sudo/coursera-bootstrap/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fezile-sudo/coursera-bootstrap.git"
+  },
+  "license": "ISC",
+  "author": "Fezile Gulwa",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
